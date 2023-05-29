@@ -52982,20 +52982,20 @@ s=A.TV()
 r.f!==$&&A.dj()
 r.f=s
 s.V(0,r.gGG())},
-N(a){var s,r,q,p,o,n,m=this,l=null,k="https://batistelb.github.io/",j=m.y=A.cv(a,l,t.w).w.a,i=j.a
-j=j.b
-s=A.hb(new A.Ch(new A.YW(m),B.u2,new A.mk(A.afH(l,l,new A.iE("assets/traditional_moroccan_zellige.jpg",l,l)),B.i,B.u_,B.uf,l),l),j,i)
+N(a){var s,r,q,p,o,n,m=this,l=null,k=m.y=A.cv(a,l,t.w).w.a,j=k.a
+k=k.b
+s=A.hb(new A.Ch(new A.YW(m),B.u2,new A.mk(A.afH(l,l,new A.iE("assets/traditional_moroccan_zellige.jpg",l,l)),B.i,B.u_,B.uf,l),l),k,j)
 r=m.f
 r===$&&A.c()
-j=A.hb(new A.qU(m.gGJ(),m.gWB(),m.ay,l),j*0.15,i)
-q=A.hb(A.iR(l,l,B.v,l,l,B.fw,l,3,l,l,l,l,i),30,i)
+k=A.hb(new A.qU(m.gGJ(),m.gWB(),m.ay,l),k*0.15,j)
+q=A.hb(A.iR(l,l,B.v,l,l,B.fw,l,3,l,l,l,l,j),30,j)
 p=m.x
-i=A.iR(l,new A.zE(A.dS("https://github.com/minoaxl",0,l),A.dS("https://www.linkedin.com/in/ismail-labiad-130287214/",0,l),l),B.v,l,l,l,l,l,new A.aV(0,p,0,0),B.hE,l,l,i*0.25)
+j=A.iR(l,new A.zE(A.dS("https://github.com/minoaxl",0,l),A.dS("https://www.linkedin.com/in/ismail-labiad-130287214/",0,l),l),B.v,l,l,l,l,l,new A.aV(0,p,0,0),B.hE,l,l,j*0.25)
 p=m.r
 p=A.iR(l,l,B.v,l,l,B.fw,l,p>0?p:m.y.b*0.85-30,l,l,l,l,3)
 o=m.y
 n=t.E
-o=A.iQ(A.b([j,q,A.jk(A.b([i,p,A.iR(l,new A.zH(m.e,A.b([new A.zz(A.dS("https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program",0,l),A.dS("https://minoaxl.github.io/resume.pdf",0,l),l),new A.BN(A.dS("https://team.inria.fr/magnet/",0,l),A.dS("https://mperrot.github.io/",0,l),A.dS(k,0,l),A.dS("https://www.deepmind.com/research/highlighted-research/alphago",0,l),A.dS("https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg",0,l),l),new A.B5(A.dS(k,0,l),l)],n),l),B.v,l,l,l,l,l,l,B.hE,l,l,o.a*0.7)],n),B.ah,B.aO,B.b3)],n),B.ai)
+o=A.iQ(A.b([k,q,A.jk(A.b([j,p,A.iR(l,new A.zH(m.e,A.b([new A.zz(A.dS("https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program",0,l),A.dS("https://minoaxl.github.io/resume.pdf",0,l),l),new A.BN(A.dS("https://team.inria.fr/magnet/",0,l),A.dS("https://mperrot.github.io/",0,l),A.dS("https://batistelb.github.io/",0,l),A.dS("https://www.deepmind.com/research/highlighted-research/alphago",0,l),A.dS("https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg",0,l),l),new A.B5(A.dS("https://github.com/minoaxl/minoaxl.github.io",0,l),l)],n),l),B.v,l,l,l,l,l,l,B.hE,l,l,o.a*0.7)],n),B.ah,B.aO,B.b3)],n),B.ai)
 p=m.r
 return A.Ao(A.UW(B.bP,A.b([s,new A.rp(new A.Cl(r,o,l),new A.tA(A.a5v(B.n5,B.xj,!1,m.gGy()),p>0,!1,!1,!1,!1,!1,l),B.V,l)],n),B.Y,B.dr,l),B.L,new A.YX(m),new A.YY(m),new A.YZ(m))},
 WC(a){var s=this
