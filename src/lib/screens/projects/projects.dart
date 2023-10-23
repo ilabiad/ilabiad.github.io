@@ -44,9 +44,9 @@ class Projects extends StatelessWidget {
                     recognizer: TapGestureRecognizer()
                       ..onTap = () => _launchUrl(webSiteRepoURL)),
                 const TextSpan(
-                    text:
-                        ".\nHope you like the Moroccan Zellige desing in the background."
-                        " It can be disabled by toggling the button in the top right corner\n")
+                    text: 
+                        ".\nHope you like the Moroccan Zellige design in the background."
+                        " It can be disabled by toggling the button in the top right corner.\n")
               ])),
           const SizedBox(
             height: 100,

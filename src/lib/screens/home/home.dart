@@ -8,6 +8,7 @@ class Home extends StatelessWidget {
   final Uri polytechnicienProgramURL = Uri.parse(
       "https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program");
   final Uri resumeURI = Uri.parse("https://minoaxl.github.io/resume.pdf");
+  final Uri mvaURI = Uri.parse("https://www.master-mva.com/");
 
   @override
   Widget build(BuildContext context) {
@@ -34,10 +35,25 @@ class Home extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyMedium,
                   children: [
                 const TextSpan(
-                    text:
-                        "I am a third year student at Ecole Polytechnique in the "),
+                    text: "I am currently doing a master's degree M2 in "),
                 TextSpan(
-                    text: "Ingénieur Polytechnicien program",
+                    text: "mathematics, vision and Learning (MVA)",
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyMedium
+                        ?.copyWith(decoration: TextDecoration.underline),
+                    recognizer: TapGestureRecognizer()
+                      ..onTap = () => _launchUrl(mvaURI)),
+                const TextSpan(text: " at ENS Paris-Saclay.\n"),
+              ])),
+          RichText(
+              text: TextSpan(
+                  style: Theme.of(context).textTheme.bodyMedium,
+                  children: [
+                const TextSpan(
+                    text: "I recently obtained my engineering degree from "),
+                TextSpan(
+                    text: "Ecole Polytechnique",
                     style: Theme.of(context)
                         .textTheme
                         .bodyMedium
@@ -45,22 +61,18 @@ class Home extends StatelessWidget {
                     recognizer: TapGestureRecognizer()
                       ..onTap = () => _launchUrl(polytechnicienProgramURL)),
                 const TextSpan(
-                    text:
-                        " and I am majoring in applied mathematics (PA MAP)\n"),
+                    text: " where I was majoring in applied mathematics.\n"),
               ])),
           const Text(
-              "I will be doing a masters M2 next academic year (2023 - 2024) in mathematics, "
-              "vision and machine learning (MVA) at ENS Paris-Saclay\n"),
-          const Text(
-              "I am looking to do a PhD, by the end of the next academic year, in"
-              " Machine Learning or a related field\n\n"),
+              "I am looking to pursue a PhD, by the end of the next academic year, in"
+              " Machine Learning or a related field.\n\n"),
           RichText(
               text: TextSpan(
                   style: Theme.of(context).textTheme.bodyMedium,
                   children: [
                 const TextSpan(
                     text:
-                        "You can find more about my academic background bellow, "
+                        "You can find more about my academic background below, "
                         "or take a look at my "),
                 TextSpan(
                     text: "CV",
@@ -101,6 +113,11 @@ class Home extends StatelessWidget {
                             .headlineMedium
                             ?.copyWith(color: Colors.black),
                       ),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Text(
+                          "2023 - 2024: ENS Paris-Saclay, Master M2 Mathematics, Vision, Learning (MVA)"),
                     ),
                     const Padding(
                       padding: EdgeInsets.all(8.0),

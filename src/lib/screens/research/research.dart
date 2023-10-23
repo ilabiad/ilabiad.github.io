@@ -37,7 +37,7 @@ class Research extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyMedium,
                   children: [
                 const TextSpan(
-                    text: "I am currently a research intern at INRIA Lille"
+                    text: "I've recently finished an internshio at INRIA Lille"
                         " in the "),
                 TextSpan(
                     text: "MAGNET team",
@@ -49,7 +49,7 @@ class Research extends StatelessWidget {
                       ..onTap = () => _launchUrl(magentURL)),
                 const TextSpan(
                     text:
-                        ", and I am working on \"Fully decentralized learning under group fairness"
+                        ", where I worked on \"Fully decentralized learning under group fairness"
                         " and heterogeneity constraints\" under the supervision"
                         " of: "),
                 TextSpan(
@@ -69,7 +69,7 @@ class Research extends StatelessWidget {
                         ?.copyWith(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () => _launchUrl(blebarsURL)),
-                const TextSpan(text: " \n")
+                const TextSpan(text: ". \n")
               ])),
           Padding(
             padding: const EdgeInsets.only(top: 50, bottom: 20),
@@ -83,7 +83,7 @@ class Research extends StatelessWidget {
           ),
           const Text(
               "I am interested in research related to machine learning algorithms"
-              " and I am still exploring different fields to see what stimulate my curiosity the most\n"),
+              " and I am still exploring different fields to see what stimulate my curiosity the most.\n"),
           RichText(
               text: TextSpan(
                   style: Theme.of(context).textTheme.bodyMedium,
@@ -107,7 +107,7 @@ class Research extends StatelessWidget {
                     recognizer: TapGestureRecognizer()
                       ..onTap = () => _launchUrl(twoMinutesPaperURL)),
                 const TextSpan(
-                    text: " that first got me hooked on ML applications"),
+                    text: " that first got me hooked on ML applications."),
               ])),
           Padding(
             padding: const EdgeInsets.only(top: 50.0, bottom: 20),
