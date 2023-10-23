@@ -52998,7 +52998,7 @@ p=m.r
 p=A.iS(l,l,B.v,l,l,B.fw,l,p>0?p:m.y.b*0.85-30,l,l,l,l,3)
 o=m.y
 n=t.E
-o=A.iR(A.b([k,q,A.jl(A.b([j,p,A.iS(l,new A.zH(m.e,A.b([new A.zz(A.dy("https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program",0,l),A.dy("https://minoaxl.github.io/resume.pdf",0,l),A.dy("https://www.master-mva.com/",0,l),l),new A.BN(A.dy("https://team.inria.fr/magnet/",0,l),A.dy("https://mperrot.github.io/",0,l),A.dy("https://batistelb.github.io/",0,l),A.dy("https://www.deepmind.com/research/highlighted-research/alphago",0,l),A.dy("https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg",0,l),l),new A.B5(A.dy("https://github.com/minoaxl/minoaxl.github.io",0,l),l)],n),l),B.v,l,l,l,l,l,l,B.hE,l,l,o.a*0.7)],n),B.ah,B.aP,B.b3)],n),B.ai)
+o=A.iR(A.b([k,q,A.jl(A.b([j,p,A.iS(l,new A.zH(m.e,A.b([new A.zz(A.dy("https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program",0,l),A.dy("https://ilabiad.github.io/resume.pdf",0,l),A.dy("https://www.master-mva.com/",0,l),l),new A.BN(A.dy("https://team.inria.fr/magnet/",0,l),A.dy("https://mperrot.github.io/",0,l),A.dy("https://batistelb.github.io/",0,l),A.dy("https://www.deepmind.com/research/highlighted-research/alphago",0,l),A.dy("https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg",0,l),l),new A.B5(A.dy("https://github.com/minoaxl/minoaxl.github.io",0,l),l)],n),l),B.v,l,l,l,l,l,l,B.hE,l,l,o.a*0.7)],n),B.ah,B.aP,B.b3)],n),B.ai)
 p=m.r
 return A.Ao(A.UX(B.bP,A.b([s,new A.rp(new A.Cl(r,o,l),new A.tA(A.a5w(B.n5,B.xj,!1,m.gGy()),p>0,!1,!1,!1,!1,!1,l),B.V,l)],n),B.Z,B.dr,l),B.H,new A.YY(m),new A.YZ(m),new A.Z_(m))},
 WC(a){var s=this
