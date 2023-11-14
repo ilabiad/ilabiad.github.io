@@ -100,7 +100,7 @@ class ImageAndContact extends StatelessWidget {
 
   final String myImagePath = "assets/my_picture_low_quality.png";
   final String githubImagePath = "assets/github_logo.png";
-  final Uri _githubURL = Uri.parse("https://github.com/minoaxl");
+  final Uri _githubURL = Uri.parse("https://github.com/ilabiad");
   final String linkedinImagePath = "assets/linkedin_logo.png";
   final Uri _linkedinURL =
       Uri.parse("https://www.linkedin.com/in/ismail-labiad-130287214/");

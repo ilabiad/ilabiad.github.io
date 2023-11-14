@@ -11,6 +11,8 @@ class Research extends StatelessWidget {
       "https://www.deepmind.com/research/highlighted-research/alphago");
   final Uri twoMinutesPaperURL =
       Uri.parse("https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg");
+  final Uri decentralizedFairnessReportURI = Uri.parse(
+      "https://ilabiad.github.io/Fairness_in_Decentralized_Learning.pdf");
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +39,7 @@ class Research extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyMedium,
                   children: [
                 const TextSpan(
-                    text: "I've recently finished an internshio at INRIA Lille"
+                    text: "I've recently finished an internship at INRIA Lille"
                         " in the "),
                 TextSpan(
                     text: "MAGNET team",
@@ -69,7 +71,19 @@ class Research extends StatelessWidget {
                         ?.copyWith(decoration: TextDecoration.underline),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () => _launchUrl(blebarsURL)),
-                const TextSpan(text: ". \n")
+                const TextSpan(
+                    text: ". The report summarizing my work can be"
+                        " found "),
+                TextSpan(
+                    text: "here",
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyMedium
+                        ?.copyWith(decoration: TextDecoration.underline),
+                    recognizer: TapGestureRecognizer()
+                      ..onTap =
+                          () => _launchUrl(decentralizedFairnessReportURI)),
+                const TextSpan(text: ". \n"),
               ])),
           Padding(
             padding: const EdgeInsets.only(top: 50, bottom: 20),

@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
 
   final Uri polytechnicienProgramURL = Uri.parse(
       "https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program");
-  final Uri resumeURI = Uri.parse("https://minoaxl.github.io/resume.pdf");
+  final Uri resumeURI = Uri.parse("https://ilabiad.github.io/resume.pdf");
   final Uri mvaURI = Uri.parse("https://www.master-mva.com/");
 
   @override
