@@ -151,7 +151,7 @@ class ImageAndContact extends StatelessWidget {
                                   content: Text(
                                       "Email address copied to clipboard")));
                         }),
-                    child: Text(email))
+                    child: const Text("email"))
               ],
             ),
             const SizedBox(
