@@ -63,8 +63,7 @@ class Home extends StatelessWidget {
                 const TextSpan(
                     text: " where I was majoring in applied mathematics.\n"),
               ])),
-          const Text(
-              "I am looking to pursue a PhD, by the end of the next academic year, in"
+          const Text("I am looking to pursue a PhD, in"
               " Machine Learning or a related field.\n\n"),
           RichText(
               text: TextSpan(
@@ -148,17 +147,16 @@ class Home extends StatelessWidget {
                     ),
                     const Padding(
                       padding: EdgeInsets.all(8.0),
+                      child: Text("2024: Research intern at Meta FAIR"),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.all(8.0),
                       child:
                           Text("2023: Research intern at INRIA (MAGNET team)"),
                     ),
                     const Padding(
                       padding: EdgeInsets.all(8.0),
                       child: Text("2022: Research intern at ReciTAL"),
-                    ),
-                    const Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child:
-                          Text("2021: Software engineer intern at Freterium"),
                     ),
                   ],
                 ),

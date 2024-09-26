@@ -4,6 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 class Research extends StatelessWidget {
   Research({super.key});
+  final Uri lognormaltURL = Uri.parse("https://arxiv.org/abs/2409.15119v2");
   final Uri magentURL = Uri.parse("https://team.inria.fr/magnet/");
   final Uri mperrotURL = Uri.parse("https://mperrot.github.io/");
   final Uri blebarsURL = Uri.parse("https://batistelb.github.io/");
@@ -39,7 +40,39 @@ class Research extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyMedium,
                   children: [
                 const TextSpan(
-                    text: "I've recently finished an internship at INRIA Lille"
+                    text: "2024 : I am currently doing an internship at Meta"
+                        " FAIR in Paris. I am working on black-box adversarial"
+                        " attacks and the integration of their detection for"
+                        " AI generated images detection. "),
+                TextSpan(
+                    text: "paper",
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyMedium
+                        ?.copyWith(decoration: TextDecoration.underline),
+                    recognizer: TapGestureRecognizer()
+                      ..onTap = () => _launchUrl(lognormaltURL)),
+                const TextSpan(text: ". \n"),
+                const TextSpan(
+                    text: "I've also explored the"
+                        " use of text watermarking on images via quantization. "),
+                TextSpan(
+                    text: "report",
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyMedium
+                        ?.copyWith(decoration: TextDecoration.underline),
+                    recognizer: TapGestureRecognizer()..onTap = () => {}),
+              ])),
+          const SizedBox(
+            height: 20,
+          ),
+          RichText(
+              text: TextSpan(
+                  style: Theme.of(context).textTheme.bodyMedium,
+                  children: [
+                const TextSpan(
+                    text: "2023 : I've finished an internship at INRIA Lille"
                         " in the "),
                 TextSpan(
                     text: "MAGNET team",
@@ -133,7 +166,18 @@ class Research extends StatelessWidget {
                   ?.copyWith(color: Colors.black),
             ),
           ),
-          const Text("Coming soon ! (Hopefully ^^')"),
+          const Text("My first (of many!) paper on arXiv :"),
+          RichText(
+            text: TextSpan(
+                text:
+                    "Log-normal Mutations and their Use in Detecting Surreptitious Fake Images",
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyMedium
+                    ?.copyWith(decoration: TextDecoration.underline),
+                recognizer: TapGestureRecognizer()
+                  ..onTap = () => _launchUrl(lognormaltURL)),
+          ),
           const SizedBox(
             height: 100,
           )

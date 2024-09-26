@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
+// import 'package:flutter/rendering.dart';
 
 import 'screens/home/home.dart';
 import 'screens/projects/projects.dart';
@@ -141,9 +141,13 @@ class _MyHomePageState extends State<MyHomePage> {
           floatingActionButton: Visibility(
             visible: _barHeight > 0,
             child: FloatingActionButton(
+              shape: const CircleBorder(),
               backgroundColor: Colors.blueGrey,
               onPressed: scrollUp,
-              child: const Icon(Icons.arrow_upward),
+              child: const Icon(
+                Icons.arrow_upward,
+                color: Colors.white,
+              ),
             ),
           ),
         ),

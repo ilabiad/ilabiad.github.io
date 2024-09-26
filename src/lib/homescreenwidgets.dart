@@ -43,7 +43,7 @@ class _PagesButtonsState extends State<PagesButtons> {
                 child: Column(
                   children: [
                     Container(
-                        padding: EdgeInsets.fromLTRB(20, 40, 20, 10),
+                        padding: const EdgeInsets.fromLTRB(20, 40, 20, 10),
                         child: Text(
                           widget.pages[index],
                           style: const TextStyle(
