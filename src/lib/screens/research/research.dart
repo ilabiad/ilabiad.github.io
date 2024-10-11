@@ -14,6 +14,8 @@ class Research extends StatelessWidget {
       Uri.parse("https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg");
   final Uri decentralizedFairnessReportURI = Uri.parse(
       "https://ilabiad.github.io/Fairness_in_Decentralized_Learning.pdf");
+  final Uri aiImagesDetectionURI =
+      Uri.parse("https://ilabiad.github.io/AI_Images_Detection.pdf");
 
   @override
   Widget build(BuildContext context) {
@@ -62,7 +64,8 @@ class Research extends StatelessWidget {
                         .textTheme
                         .bodyMedium
                         ?.copyWith(decoration: TextDecoration.underline),
-                    recognizer: TapGestureRecognizer()..onTap = () => {}),
+                    recognizer: TapGestureRecognizer()
+                      ..onTap = () => _launchUrl(aiImagesDetectionURI)),
               ])),
           const SizedBox(
             height: 20,
