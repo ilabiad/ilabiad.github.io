@@ -16,6 +16,8 @@ class Research extends StatelessWidget {
       "https://ilabiad.github.io/Fairness_in_Decentralized_Learning.pdf");
   final Uri aiImagesDetectionURI =
       Uri.parse("https://ilabiad.github.io/AI_Images_Detection.pdf");
+  final Uri oTeytaudURL =
+      Uri.parse("https://scholar.google.com/citations?user=xsCcLZ8AAAAJ&hl=en");
 
   @override
   Widget build(BuildContext context) {
@@ -42,8 +44,18 @@ class Research extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyMedium,
                   children: [
                 const TextSpan(
-                    text: "2024 : I am currently doing an internship at Meta"
-                        " FAIR in Paris. I am working on black-box adversarial"
+                    text: "2024 : I've recently finished an internship at Meta"
+                        " FAIR in Paris under the supervision of "),
+                TextSpan(
+                    text: "Olivier Teytaud",
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyMedium
+                        ?.copyWith(decoration: TextDecoration.underline),
+                    recognizer: TapGestureRecognizer()
+                      ..onTap = () => _launchUrl(oTeytaudURL)),
+                const TextSpan(
+                    text: ". I've worked on adversarial"
                         " attacks and the integration of their detection for"
                         " AI generated images detection. "),
                 TextSpan(
